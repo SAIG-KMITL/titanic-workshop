@@ -8,6 +8,7 @@
 
 ```
 from sklearn.tree import DecisionTreeClassifier
+
 model = DecisionTreeClassifier(max_depth=2)
 model.fit(X_train,y_train)
 ```
