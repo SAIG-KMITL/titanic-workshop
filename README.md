@@ -58,3 +58,6 @@ df.dropna(inplace=True)
 X['Sex'] = X['Sex'].map({'male':1, 'female':0})
 ```
 
+---
+## อ้างอิง
+* ข้อมูลจาก https://www.kaggle.com/datasets/yasserh/titanic-dataset
