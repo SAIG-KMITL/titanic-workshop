@@ -2,6 +2,9 @@
 
 ![alt bit.ly/SAIG-TITANIC](https://saig-kmitl.github.io/titanic-workshop/saig-titanic-qr.jpg)
 
+## Slides
+* https://www.canva.com/design/DAGMnMjQlOM/H51kDyp1pRodPIl-U4qK7Q/edit 
+
 ## คำสั่ง
 * จงคัดลอง code ต่อไปนี้ ไปเติมใน Colab เพื่อให้เป็นกระบวนการสร้างโมเดลการทำนายการรอดของผู้โดยสารไททานิค
 * Link ของ Colab ที่  https://colab.research.google.com/drive/1cYVrWHJhP44V30w7ftj20i2UqOdlppkJ
