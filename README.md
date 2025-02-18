@@ -6,11 +6,15 @@
 * https://www.canva.com/design/DAGMnMjQlOM/H51kDyp1pRodPIl-U4qK7Q/edit 
 
 ## คำสั่ง
-* จงคัดลอง code ต่อไปนี้ ไปเติมใน Colab เพื่อให้เป็นกระบวนการสร้างโมเดลการทำนายการรอดของผู้โดยสารไททานิค
-* Link ของ Colab ที่  https://colab.research.google.com/drive/1cYVrWHJhP44V30w7ftj20i2UqOdlppkJ
-* หากมีเวลาเหลือ ให้ลองปรับใช้ Artifical Neural Network (code ด้านล่าง) เพื่อให้ได้ Accuracy สูงกว่า Decision Tree
+* Copy the following code into Colab to complete the process of building a model to predict the survival of Titanic passengers.
+  
+  (จงคัดลอง code ต่อไปนี้ ไปเติมใน Colab เพื่อให้เป็นกระบวนการสร้างโมเดลการทำนายการรอดของผู้โดยสารไททานิค)
+* Link of Colab:  https://colab.research.google.com/drive/1cYVrWHJhP44V30w7ftj20i2UqOdlppkJ
+* If you have time left, try applying the Artificial Neural Network (code below) to achieve higher accuracy than the Decision Tree.
+  
+  (หากมีเวลาเหลือ ให้ลองปรับใช้ Artifical Neural Network (code ด้านล่าง) เพื่อให้ได้ Accuracy สูงกว่า Decision Tree)
 
-## ตัวเลือก
+## Options (ตัวเลือก)
 
 
 ```
@@ -62,8 +66,10 @@ df.dropna(inplace=True)
 X['Sex'] = X['Sex'].map({'male':1, 'female':0})
 ```
 ---
-## เพิ่มเติม
-ลองนำ code ของ Neural Network ตัวนี้ไปปรับใช้ เพื่อให้ได้ค่า Accuracy สูงขึ้น
+## Extra task (เพิ่มเติม)
+Try adapting this Neural Network code to achieve higher accuracy.
+
+(ลองนำ code ของ Neural Network ตัวนี้ไปปรับใช้ เพื่อให้ได้ค่า Accuracy สูงขึ้น)
 
 ```
 from sklearn.neural_network import MLPClassifier
@@ -78,5 +84,5 @@ print('Accuracy = ', acc)
 ```
 
 ---
-## อ้างอิง
-* ข้อมูลจาก https://www.kaggle.com/datasets/yasserh/titanic-dataset
+## Ref
+* Data from  https://www.kaggle.com/datasets/yasserh/titanic-dataset
